@@ -4,27 +4,29 @@ import sys
 
 if len(sys.argv) == 1:
   print ('Error No arguments entered: Provide two arguments')
-  sys.exit()
+  a=int(input("Enter a number: "))
+  b=int(input("Enter a number: "))
 
 if len(sys.argv) == 2:
   print ('Error one argument entered: Provide two arguments')
-  sys.exit()
+  a=int(sys.argv[1])
+  b=int(input("Enter a number: "))
+
+if len(sys.argv) == 3:
+   a=int(sys.argv[1])
+   b=int(sys.argv[2])
 
 if len(sys.argv) >= 4:
   print ('Error more than two  arguments entered: Provide only two arguments')
-  sys.exit()
+  a=int(input("Enter a number: "))
+  b=int(input("Enter a number: "))
 
-
-print(sys.argv)
-
-a=int(sys.argv[1])
-b=int(sys.argv[2])
 
 
 def add(a,b):
   sum=a+b
   return sum 
 
-print("The sum of the two values is: ",add(a,b))
+print("The sum of the two values", a, "and", b,"is: ",add(a,b))
 
 
