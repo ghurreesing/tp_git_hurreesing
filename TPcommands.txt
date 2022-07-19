@@ -1,0 +1,40 @@
+TP_git_2022
+
+Commands used in TP:
+
+Q2: git clone <url>
+Q3: git branch dev
+    git checkout dev
+Q4: git branch add
+    git switch add
+    git status
+Q5,Q6,Q7: nano addTwoInt.py
+Q8: git add .
+    git commit -m "commit message"
+    git push origin add
+Q9: nano addTwoInt.py
+Q10: git add .
+     git commit -m "commit message"
+     git push origin add
+Q11: nano addTwoInt.py
+Q12: git add .
+     git commit -m "commit message"
+     git push origin add
+Q13: git checkout <commitID>
+     git tag -a 0.1add -m "0.1add"
+     git push origin --tags
+     git checkout <commitID>
+     git tag -a 0.2add -m "0.2add"
+     git push origin --tags
+     git checkout <commitID>
+     git tag -a 0.3add -m "0.3add"
+     git push origin --tags
+Q14: git checkout dev
+     git merge add
+     git push origin
+Q15: git checkout main
+     git push origin --delete add
+Q16: nano README.md
+     git add .
+     git commit -m "commit message"
+     git push origin main 
